@@ -47,7 +47,7 @@ def get_utc_time():
         print("خطأ في جلب الوقت:", e)
         odin_exit()
 
-Odin = datetime(2026, 8, 16, 0, 0, 0)
+Odin = datetime(2026, 8, 17, 0, 0, 0)
 now = get_utc_time()
 
 if now > Odin:
